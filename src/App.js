@@ -5,6 +5,8 @@ import Navbar from './componente/Navbar';
 import Statistics from './componente/Statistics';
 import Grill from './componente/Grill';
 import Feed from './componente/Feed';
+import Subscribe from './componente/Subscribe';
+import Footer from './componente/Footer';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Statistics />
       <Grill />
       <Feed />
+      <Subscribe />
+      <Footer />
     </div>
   );
 }
